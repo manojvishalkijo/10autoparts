@@ -3,22 +3,19 @@ export const translations = {
         nav: {
             home: "Home",
             catalog: "Catalog",
-            blog: "Blog",
         },
         hero: {
-            line1: "MAKE",
-            line2: "STORE",
-            line3: "SELL",
-            line4: "PARTS",
-            line5: "EARN",
-            line6: "MONEY",
+            line1: "PARTS",
+            line2: "",
+            line3: "YOU",
+            line4: "",
+            line5: "TRUST",
+            line6: "",
             subtitle: "Original Spares for Tata, Mahindra, Maruti & More."
         },
         categories: {
             cars: "Cars",
             motorcycles: "Motorcycles",
-            snowmobiles: "Trailers",
-            atvs: "Tractors",
             scooters: "Scooters"
         },
         quality: {
@@ -40,12 +37,7 @@ export const translations = {
             viewAll: "View All",
             addToCart: "Add to Cart"
         },
-        blog: {
-            bannerTitle: "SAFETY GEAR FOR SMOKY DRIVES",
-            bannerSubtitle: "True Men Embrace The Grit.", // Matching image if possible or generic
-            learnMore: "LEARN MORE",
-            readMore: "READ MORE"
-        },
+
         gallery: {
             subtitle: "BEHIND THE SCENES",
             title: "VISUALS"
@@ -63,22 +55,19 @@ export const translations = {
         nav: {
             home: "முகப்பு",
             catalog: "தயாரிப்புகள்",
-            blog: "வலைப்பதிவு",
         },
         hero: {
-            line1: "உருவாக்கு",
-            line2: "கடை",
-            line3: "விற்க",
-            line4: "பாகங்கள்",
-            line5: "ஈட்டுக",
-            line6: "பணம்",
+            line1: "நீங்கள்",
+            line2: "",
+            line3: "நம்பும்",
+            line4: "",
+            line5: "பாகங்கள்",
+            line6: "",
             subtitle: "டாடா, மஹிந்திரா, மாருதி மற்றும் பலவற்றிற்கான அசல் உதிரிபாகங்கள்."
         },
         categories: {
             cars: "கார்கள்",
             motorcycles: "பைக்குகள்",
-            snowmobiles: "டிரெய்லர்கள்",
-            atvs: "டிராக்டர்கள்",
             scooters: "ஸ்கூட்டர்கள்"
         },
         quality: {
@@ -100,12 +89,7 @@ export const translations = {
             viewAll: "அனைத்தையும் காண்க",
             addToCart: "வண்டியில் சேர்"
         },
-        blog: {
-            bannerTitle: "பாதுகாப்பான பயணத்திற்கான கியர்",
-            bannerSubtitle: "உண்மையான ஆண்கள் தைரியத்தைத் தழுவுகிறார்கள்.",
-            learnMore: "மேலும் அறிய",
-            readMore: "மேலும் படிக்க"
-        },
+
         gallery: {
             subtitle: "திரைக்கு பின்னால்",
             title: "காட்சிகள்"

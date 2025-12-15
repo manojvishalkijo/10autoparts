@@ -41,8 +41,8 @@ export default function Footer({ language }: FooterProps) {
                     <div>
                         <h4 className="font-bold text-lg mb-6">{t.contact}</h4>
                         <ul className="space-y-4 text-gray-400 text-sm">
-                            <li>123 Auto Street, Car City</li>
-                            <li>+1 (234) 567 890</li>
+                            <li>2/12 merku theru saratha complex kambam,Theni</li>
+                            <li>+91 9442351404</li>
                             <li>contact@10autoparts.com</li>
                         </ul>
                     </div>
@@ -61,7 +61,23 @@ export default function Footer({ language }: FooterProps) {
                 </div>
 
                 <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-                    <p>{t.rights}</p>
+                    <p>
+                        {t.rights.split("XevTechSol").map((part, index, array) => (
+                            <span key={index}>
+                                {part}
+                                {index < array.length - 1 && (
+                                    <a
+                                        href="https://xevetech.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-white transition-colors"
+                                    >
+                                        XevTechSol
+                                    </a>
+                                )}
+                            </span>
+                        ))}
+                    </p>
                 </div>
             </div>
         </footer>

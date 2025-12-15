@@ -31,19 +31,19 @@ export default function TrendingSection({ addToCart, language }: TrendingSection
     };
 
     const wheels: Product[] = [
-        { id: 101, name: "Mahindra Thar Alloys", price: 12999.00, image: "https://images.pexels.com/photos/11053805/pexels-photo-11053805.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Off-Road" },
-        { id: 102, name: "Tata Nexon Diamond Cut", price: 8500.00, image: "https://images.pexels.com/photos/3752132/pexels-photo-3752132.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Alloy" },
-        { id: 103, name: "Safari Storme Rims", price: 7800.00, image: "https://images.pexels.com/photos/244553/pexels-photo-244553.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Steel" },
-        { id: 104, name: "Swift Sport Alloys", price: 6500.00, image: "https://images.pexels.com/photos/258092/pexels-photo-258092.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Sport" },
-        { id: 105, name: "Bolero Steel Rims", price: 4500.00, image: "https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Heavy Duty" },
+        { id: 101, name: "Mahindra Thar Alloys", price: 12999.00, image: "/images/products/thar_alloy.png", category: "Off-Road" },
+        { id: 102, name: "Tata Nexon Diamond Cut", price: 8500.00, image: "/images/products/nexon_alloy.png", category: "Alloy" },
+        { id: 103, name: "Safari Storme Rims", price: 7800.00, image: "/images/products/safari_rim.png", category: "Steel" },
+        { id: 104, name: "Swift Sport Alloys", price: 6500.00, image: "/images/products/swift_alloy.png", category: "Sport" },
+        { id: 105, name: "Bolero Steel Rims", price: 4500.00, image: "/images/products/bolero_rim.png", category: "Heavy Duty" },
     ];
 
     const spares: Product[] = [
-        { id: 201, name: "Brembo Brake Pads", price: 3500.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600" },
-        { id: 202, name: "Scorpio Shock Absorbers", price: 4200.00, image: "https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg?auto=compress&cs=tinysrgb&w=600" },
-        { id: 203, name: "XUV700 Engine Cover", price: 5500.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600" },
-        { id: 204, name: "Alto Clutch Plate", price: 1800.00, image: "https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg?auto=compress&cs=tinysrgb&w=600" },
-        { id: 205, name: "Creta Headlight Assembly", price: 8900.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600" },
+        { id: 201, name: "Brembo Brake Pads", price: 3500.00, image: "/images/products/brembo_pads.png" },
+        { id: 202, name: "Scorpio Shock Absorbers", price: 4200.00, image: "/images/products/scorpio_shock.png" },
+        { id: 203, name: "XUV700 Engine Cover", price: 5500.00, image: "/images/products/xuv700_cover.png" },
+        { id: 204, name: "Alto Clutch Plate", price: 1800.00, image: "/images/products/alto_clutch.png" },
+        { id: 205, name: "Creta Headlight Assembly", price: 8900.00, image: "/images/products/creta_headlight.png" },
     ];
 
 

@@ -17,19 +17,19 @@ export default function Hero({ language }: HeroProps) {
                         {/* MAKE STORE */}
                         <div className="flex items-center">
                             <span>{t.line1}</span>
-                            <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line2}</span>
+                            {t.line2 && <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line2}</span>}
                         </div>
 
                         {/* SELL PARTS */}
                         <div className="flex items-center">
                             <span>{t.line3}</span>
-                            <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line4}</span>
+                            {t.line4 && <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line4}</span>}
                         </div>
 
                         {/* EARN MONEY */}
                         <div className="flex items-center">
                             <span>{t.line5}</span>
-                            <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line6}</span>
+                            {t.line6 && <span className="text-xl sm:text-2xl font-bold text-gray-400 ml-4 rotate-90 origin-left translate-y-6 tracking-widest">{t.line6}</span>}
                         </div>
 
                     </div>

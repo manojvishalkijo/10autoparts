@@ -7,7 +7,6 @@ import CategoryIcons from "./CategoryIcons";
 import QualitySection from "./QualitySection";
 import PremiumBrands from "./PremiumBrands";
 import TrendingSection from "./TrendingSection";
-import BlogSection from "./BlogSection";
 import GallerySection from "./GallerySection";
 import ProductPage from "./ProductPage";
 import { Phone, X } from "lucide-react";
@@ -34,7 +33,6 @@ function LandingPage({ language, addToCart }: { language: "EN" | "TA", addToCart
       <QualitySection language={language} />
       <PremiumBrands language={language} />
       <TrendingSection addToCart={addToCart} language={language} />
-      <BlogSection language={language} />
       <GallerySection language={language} />
     </main>
   );

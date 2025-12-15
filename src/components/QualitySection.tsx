@@ -30,7 +30,7 @@ export default function QualitySection({ language }: QualitySectionProps) {
                         {/* Center Image */}
                         <div className="w-64 h-64 md:w-80 md:h-80 relative">
                             <img
-                                src="https://images.pexels.com/photos/11053805/pexels-photo-11053805.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                src="/images/quality-car.png"
                                 alt="Wheel Rim"
                                 className="w-full h-full object-contain drop-shadow-2xl"
                             />

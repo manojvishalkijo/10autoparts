@@ -29,9 +29,9 @@ export default function Header({
                 {/* Logo */}
                 <Link to="/" className="flex items-center space-x-2">
                     <div className="flex items-center font-black text-2xl tracking-tighter cursor-pointer">
-                        <span>SP</span>
+                        <span>10</span>
                         <Wrench className="h-6 w-6 text-gray-800 mx-0.5" />
-                        <span>RE</span>
+                        <span>autoparts</span>
                     </div>
                 </Link>
 
@@ -39,11 +39,7 @@ export default function Header({
                 <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600">
                     <Link to="/" className="hover:text-black transition-colors">{t.home}</Link>
                     <Link to="/products" className="hover:text-black transition-colors">{t.catalog}</Link>
-                    <span className="text-gray-400 cursor-not-allowed hidden">{t.blog}</span>
-                    {/* Blog is now a section on home, but if we want it accessible from other pages, we should use hashlinks. 
-              HashLink from react-router-hash-link is good, or just /#blog 
-          */}
-                    <a href="/#blog" className="hover:text-black transition-colors">{t.blog}</a>
+
                 </div>
 
                 {/* Right Actions */}
@@ -90,7 +86,7 @@ export default function Header({
                 <div className="md:hidden bg-white border-t p-4 space-y-4">
                     <Link to="/" className="block text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>{t.home}</Link>
                     <Link to="/products" className="block text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>{t.catalog}</Link>
-                    <a href="/#blog" className="block text-gray-600 font-medium" onClick={() => setIsMenuOpen(false)}>{t.blog}</a>
+
                 </div>
             )}
         </header>

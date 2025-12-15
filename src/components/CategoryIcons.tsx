@@ -1,4 +1,4 @@
-import { Car, Bike, Snowflake, Tractor, Zap } from "lucide-react";
+import { Car, Bike, Zap } from "lucide-react";
 import { translations } from "../translations";
 
 interface CategoryIconsProps {
@@ -11,8 +11,6 @@ export default function CategoryIcons({ language }: CategoryIconsProps) {
     const categories = [
         { name: t.cars, icon: <Car className="w-8 h-8" /> },
         { name: t.motorcycles, icon: <Bike className="w-8 h-8" /> },
-        { name: t.snowmobiles, icon: <Snowflake className="w-8 h-8" /> },
-        { name: t.atvs, icon: <Tractor className="w-8 h-8" /> },
         { name: t.scooters, icon: <Zap className="w-8 h-8" /> },
     ];
 

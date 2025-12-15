@@ -10,12 +10,12 @@ export default function PremiumBrands({ language }: PremiumBrandsProps) {
     const brands = [
         {
             name: "Tata Motors",
-            image: "https://images.pexels.com/photos/16380637/pexels-photo-16380637/free-photo-of-tata-truck-on-road-in-india.jpeg?auto=compress&cs=tinysrgb&w=800", // More specific if available, else generic indian truck/car
+            image: "/images/tata-suv.png", // More specific if available, else generic indian truck/car
             logo: "TATA MOTORS"
         },
         {
             name: "Mahindra",
-            image: "https://images.pexels.com/photos/14541018/pexels-photo-14541018.jpeg?auto=compress&cs=tinysrgb&w=800", // Jeep style
+            image: "/images/mahindra-suv.png", // Jeep style
             logo: "Mahindra"
         },
         {
