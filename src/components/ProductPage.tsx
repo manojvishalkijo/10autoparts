@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
+
+
+import Header from "./Header";
+
 import Footer from "./Footer";
 import { ShoppingBag, Filter, ShoppingCart, User, Phone, X } from "lucide-react";
 import { translations } from "../translations";
@@ -39,6 +43,7 @@ export default function ProductPage({
 
     // Full Product List (Combined from Home)
     const allProducts: Product[] = [
+
         { id: 101, name: "Mahindra Thar Alloys", price: 12999.00, image: "/images/products/thar_alloy.png", category: "Off-Road" },
         { id: 102, name: "Tata Nexon Diamond Cut", price: 8500.00, image: "/images/products/nexon_alloy.png", category: "Alloy" },
         { id: 103, name: "Safari Storme Rims", price: 7800.00, image: "/images/products/safari_rim.png", category: "Steel" },
@@ -49,6 +54,18 @@ export default function ProductPage({
         { id: 203, name: "XUV700 Engine Cover", price: 5500.00, image: "/images/products/xuv700_cover.png", category: "Spares" },
         { id: 204, name: "Alto Clutch Plate", price: 1800.00, image: "/images/products/alto_clutch.png", category: "Spares" },
         { id: 205, name: "Creta Headlight Assembly", price: 8900.00, image: "/images/products/creta_headlight.png", category: "Spares" },
+
+        { id: 101, name: "Mahindra Thar Alloys", price: 12999.00, image: "https://images.pexels.com/photos/11053805/pexels-photo-11053805.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Off-Road" },
+        { id: 102, name: "Tata Nexon Diamond Cut", price: 8500.00, image: "https://images.pexels.com/photos/3752132/pexels-photo-3752132.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Alloy" },
+        { id: 103, name: "Safari Storme Rims", price: 7800.00, image: "https://images.pexels.com/photos/244553/pexels-photo-244553.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Steel" },
+        { id: 104, name: "Swift Sport Alloys", price: 6500.00, image: "https://images.pexels.com/photos/258092/pexels-photo-258092.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Sport" },
+        { id: 105, name: "Bolero Steel Rims", price: 4500.00, image: "https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Heavy Duty" },
+        { id: 201, name: "Brembo Brake Pads", price: 3500.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Spares" },
+        { id: 202, name: "Scorpio Shock Absorbers", price: 4200.00, image: "https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Spares" },
+        { id: 203, name: "XUV700 Engine Cover", price: 5500.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Spares" },
+        { id: 204, name: "Alto Clutch Plate", price: 1800.00, image: "https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Spares" },
+        { id: 205, name: "Creta Headlight Assembly", price: 8900.00, image: "https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=600", category: "Spares" },
+
     ];
 
     const filteredProducts = allProducts.filter(p => {
@@ -93,7 +110,7 @@ export default function ProductPage({
 
                 <div className="flex gap-8">
                     {/* Sidebar (Desktop & Mobile) */}
-                    <div className="lg:w-64 flex-shrink-0 lg:block">
+                    <div className="w-64 flex-shrink-0 lg:block">
                         <Sidebar
                             language={language}
                             categoryFilter={categoryFilter}
@@ -145,8 +162,8 @@ export default function ProductPage({
                         )}
                     </div>
                 </div>
-            </div>
+            </div >
 
-        </div>
+        </div >
     );
 }

@@ -3,6 +3,7 @@ export const translations = {
         nav: {
             home: "Home",
             catalog: "Catalog",
+            blog: "Blog",
         },
         hero: {
             line1: "PARTS",
@@ -13,9 +14,17 @@ export const translations = {
             line6: "",
             subtitle: "Original Spares for Tata, Mahindra, Maruti & More."
         },
+        blog: {
+            bannerTitle: "SAFETY GEAR FOR SMOKY DRIVES",
+            bannerSubtitle: "True Men Embrace The Grit.",
+            learnMore: "LEARN MORE",
+            readMore: "READ MORE"
+        },
         categories: {
             cars: "Cars",
             motorcycles: "Motorcycles",
+            snowmobiles: "Trailers",
+            atvs: "Tractors",
             scooters: "Scooters"
         },
         quality: {
@@ -55,6 +64,7 @@ export const translations = {
         nav: {
             home: "முகப்பு",
             catalog: "தயாரிப்புகள்",
+            blog: "வலைப்பதிவு",
         },
         hero: {
             line1: "நீங்கள்",
@@ -65,9 +75,17 @@ export const translations = {
             line6: "",
             subtitle: "டாடா, மஹிந்திரா, மாருதி மற்றும் பலவற்றிற்கான அசல் உதிரிபாகங்கள்."
         },
+        blog: {
+            bannerTitle: "பாதுகாப்பான பயணத்திற்கான கியர்",
+            bannerSubtitle: "உண்மையான ஆண்கள் தைரியத்தைத் தழுவுகிறார்கள்.",
+            learnMore: "மேலும் அறிய",
+            readMore: "மேலும் படிக்க"
+        },
         categories: {
             cars: "கார்கள்",
             motorcycles: "பைக்குகள்",
+            snowmobiles: "டிரெய்லர்கள்",
+            atvs: "டிராக்டர்கள்",
             scooters: "ஸ்கூட்டர்கள்"
         },
         quality: {
